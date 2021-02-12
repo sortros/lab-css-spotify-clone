@@ -6,3 +6,178 @@ Green: #00B172
 White: #FFF
 
 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-----------Fi Reset------------*/
+
+h1, h2, h3, a, p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 20px;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 28px;
+}
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+.logo{
+    display: inline-block;
+    width: 10%;
+}
+.navlinks{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.headertext{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 50%;
+    box-sizing: content-box;
+
+}
+.headerimg{
+    background-image: url("../images/landing.jpg");
+    background-position:(0,0);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 700px;
+    width: 100%;
+}
+.section1 h2{
+    position: relative;
+    align-content: center;
+    left: 40%;
+    padding-top: 30px;
+    border-bottom: #00B172 solid 3px;
+    width: fit-content;
+}
+.bigfeatures{
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    box-sizing: border-box;
+   
+}
+.features{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.features img{
+    display: block;
+    width: 30%;
+}
+.features h3{
+    color: #00B172;
+    font-weight: bold;
+}
+.features p{
+    color: 1A1A1A;
+}
+.section2{
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#00B172 ;
+    background-size: 10% 20%;     
+    
+}
+.section2 > div {
+    display: flex;
+    align-content: space-between;
+    padding: 60px 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .app{
+    color: white;
+    display: flex;
+    align-content: space-around;
+    align-items: left;
+    flex-direction: column;
+    width: 40%;
+}
+.appimg{
+    padding: 80px 0px 0px 0px;
+    position: relative;
+    left: 250px;
+    
+}
+.app h2{
+    border-bottom: white solid 3px;
+    width: fit-content;
+}
+.app h3{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.app p{
+    width: 60%;
+    padding-top: 20px;
+}
